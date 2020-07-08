@@ -3,19 +3,8 @@
     <img class="greet-image" src="../../uploads/hello.svg" />
 
     <h2 class="mb-4">Gridsome starter bootstrap</h2>
-    <p>
-      This is a starter project for Gridsome that comes with many features out of the box. It utilizes Bootstrap that is well known
-      for powerful styling and layout. Ready to be deployed, automagically imports data to CMS and sets up your /admin page for easy
-      access to edit your content. 
-    </p>
-
-    <p>
-      It is designed to use Netlify, Forestry and Github which all have very fair free tier to their services, so you wont need to pay
-      for monthly subscriptions and costly hosting fees.
-    </p>
 
     <h3 class="mt-5 mb-4">Features</h3>
-    <p>This starter project includes some of the latest powerful technologies.</p>
     <ul>
       <li>
         <b>Gridsome - </b> Vue.js & GraphQL powered framework genrating static files.
@@ -57,28 +46,6 @@
     <p>
       Use the following build config for Netlify
     </p>
-    
-    <p>
-      Build command: <code>gridsome build</code>
-    </p>
-    <p>
-      Publish directory: <code>dist</code>
-    </p>
-
-
-    <h4 class="mb-3 mt-5">Manually install just the project (without CMS).</h4>
-
-    <p>If you haven't already installed Gridsome CLI: <code>npm install --global @gridsome/cli</code></p>
-
-    <ol>
-      <li><code>gridsome create my-gridsome-site https://github.com/LokeCarlsson/gridsome-starter-bootstrap.git</code></li>
-
-      <li><code>cd my-gridsome-site</code> to open folder</li>
-
-      <li><code>yarn dev</code> to start local dev server at <code>http://localhost:8080</code></li>
-
-      <li>Happy hacking 🎉🙌</li>
-    </ol>
 
   </Layout>
 </template>

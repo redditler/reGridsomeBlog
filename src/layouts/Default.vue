@@ -3,8 +3,9 @@
     <div id="content-wrapper">
       <Header/>
       <slot/>
+      <Footer/>
     </div>
-    <Footer/>
+
   </div>
 </template>
 
@@ -23,7 +24,10 @@ export default {
 
 <style lang="scss">
 body, html {
-  height: 100%;
+  min-height: 100%;
+  color: #fff;
+  background: #343a40;
+
 }
 
 body {
@@ -31,18 +35,22 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
+  background: grey;
+  color: #fff;
 }
 
 #app {
   display: flex;
   flex-direction: column;
   height: 100%;
+  background: #343a40;
 }
 
 #content-wrapper {
   flex: 1 0 auto;
-  max-width: 950px;
+  max-width: 1150px;
   width: 90vw;
   margin: 0 auto;
+  background: #343a40;
 }
 </style>

@@ -16,6 +16,16 @@ module.exports = {
       },
     },
     {
+      use: '@gridsome/source-wordpress',
+      options: {
+        baseUrl: 'https://api.looq.store', // required
+        apiBase: 'wp-json',
+        typeName: 'WordPress',
+        perPage: 100,
+        concurrent: 10
+      }
+    },
+    {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-72659574-10'
